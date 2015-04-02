@@ -1,8 +1,8 @@
-__author__ = 'TB00353682'
+__author__ = 'tahersb'
 
 import xml.etree.ElementTree as ET
 
-tree = ET.parse('Crawler_Mar15_XML.xml')
+tree = ET.parse('Acunetix_Crawler_XML.xml')
 Crawler = tree.getroot()
 print "Opening file for writing"
 fileHandler = open('outfile.txt', 'a')
